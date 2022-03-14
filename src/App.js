@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import SearchAppBar from './SearchAppBar';
+// import BasicTable from './BasicTable';
 
+import DataTable from './DataTable';
+import React from 'react';
 function App() {
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+<>
+    <h1>DataTable</h1>
+        <DataTable/> 
+        </>  
+    )
 }
 
-export default App;
+export default App
